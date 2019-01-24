@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "h4",
+  "homepage": "https://h-4-markt.netlify.com",
+  "scripts": {
+    "deploy": "echo &#39;You have no deployment tool configured",
+    "postdeploy": "echo 'Your site was deployed to https://h-4-markt.netlify.com'",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
